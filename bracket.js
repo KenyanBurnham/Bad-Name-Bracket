@@ -119,7 +119,7 @@ console.log(scores);
             $(go.TextBlock, "",
               {
                 row: 0,
-                wrap: go.TextBlock.None, margin: 5, width: 90,
+                wrap: go.TextBlock.None, margin: 5, width: 200,
                 isMultiline: false, textAlign: 'left',
                 font: '10pt  Segoe UI,sans-serif', stroke: 'white'
               },
@@ -127,7 +127,7 @@ console.log(scores);
             $(go.TextBlock, "",
               {
                 row: 1,
-                wrap: go.TextBlock.None, margin: 5, width: 90,
+                wrap: go.TextBlock.None, margin: 5, width: 200,
                 isMultiline: false, textAlign: 'left',
                 font: '10pt  Segoe UI,sans-serif', stroke: 'white'
               },
