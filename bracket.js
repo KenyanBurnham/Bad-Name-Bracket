@@ -136,7 +136,7 @@ console.log(scores);
               {
                 column: 1, row: 0,
                 wrap: go.TextBlock.None, margin: 2, width: 25,
-                isMultiline: false, editable: true, textAlign: 'center',
+                isMultiline: false, editable: false, textAlign: 'center',
                 font: '10pt  Segoe UI,sans-serif', stroke: 'black'
               },
               new go.Binding("text", "score1").makeTwoWay()),
@@ -144,7 +144,7 @@ console.log(scores);
               {
                 column: 1, row: 1,
                 wrap: go.TextBlock.None, margin: 2, width: 25,
-                isMultiline: false, editable: true, textAlign: 'center',
+                isMultiline: false, editable: false, textAlign: 'center',
                 font: '10pt  Segoe UI,sans-serif', stroke: 'black'
               },
               new go.Binding("text", "score2").makeTwoWay())
