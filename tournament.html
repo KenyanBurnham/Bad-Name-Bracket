@@ -1,3 +1,11 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <body>
+  <script src="https://unpkg.com/gojs@2.2.9/release/go.js"></script>
+
+  <div id="allSampleContent" class="p-4 w-full">
+    <script id="code">
 /**
 Instructions:
 1. Download the totally valid names file as a CSV
@@ -5,81 +13,136 @@ Instructions:
 3. Input the CSV file and ask for "CTV to JSON array"
 **/
 //Use this link to generate a
-    let nameArray = [
-  ["Michael Postar Johnston *sponsored by Affordable Storage",1  ],
-  ["Eustace Johnston",2  ],
-  ["Reagor Dykes Johnston",3  ],
-  ["Lie Fire Johnston",4  ],
-  ["Planet Marfa Johnston",5  ],
-  ["Ayewilleet Minaybor Johnston",6  ],
-  ["Corona Fauci Johnston",7  ],
-  ["Kung Flu Johnston",8  ],
-  ["Donald Johnston",9  ],
-  ["X Æ A-13 Johnston",10  ],
-  ["Jean Stan Johnston",11  ],
-  ["Action Johnston",12  ],
-  ["Kaye Leigh Johnston",13  ],
-  ["Johnathon \"John\" Stan Johnston",14  ],
-  ["Daire Reck Johnston",15  ],
-  ["Daire Rick-Alan Johnston",16  ],
-  ["Dirk Johnston",17  ],
-  ["Richard Johnston",18  ],
-  ["Just the Letter D Johnston",19  ],
-  ["Dee \"Deejay\" Jay Johnston",20  ],
-  ["Barry",21  ],
-  ["Small Derek Johnston",22  ],
-  ["You Child Johnston",23  ],
-  ["Johnston, son of Johnston",24  ],
-  ["Sport Johnston",25  ],
-  ["Johnston VerJohnstonson",26  ],
-  ["Dejohnston Johnston",27  ],
-  ["Bonus Johnston",28  ],
-  ["Kidd Johnston",29  ],
-  ["Action Bronson Johnston",30  ],
-  ["Shania Twain Rufus Johnston",31  ],
-  ["Stevie Irwin Johnston",32  ],
-  ["Dijon \"Di\" Johnston",33  ],
-  ["Mylegal Property Johnston",34  ],
-  ["Mystic Olraspy Johnston",35  ],
-  ["Metaphysical Meagon Johnston",36  ],
-  ["Governor Abbott Johnston",37  ],
-  ["Elle Shimmershimmer Johnston",38  ],
-  ["John Johnson Johnston",39  ],
-  ["Johnstdaughter Johnston ",40  ],
-  ["Jan Johnston",41  ],
-  ["Jar Jar \"Triple J\" Johnston",42  ],
-  ["Jack Johnston",43  ],
-  ["Karek Ranley Johnston",44  ],
-  ["Untitled01 Johnston",45  ],
-  ["Robert') DROP TABLE Students;-- Johnston",46  ],
-  ["Holloway Johnston",47  ],
-  ["Derecles Kaylos Johnston",48  ],
-  ["Longjohn Johnston",49  ],
-  ["Derek Alan Johnston II",50  ],
-  ["💯 Johnston",51  ],
-  ["Daniel Johnston",52  ],
-  ["Chucklefuck Ballsack Johnston I",53  ],
-  ["The People's Johnston",54  ],
-  ["Agricola Johnston",55  ],
-  ["Root Johnston",56  ]
+    let names = [
+"Michael Postar Johnston *sponsored by Affordable Storage",
+"Eustace Johnston",
+"Reagor Dykes Johnston",
+"Lie Fire Johnston",
+"Planet Marfa Johnston",
+"Ayewilleet Minaybor Johnston",
+"Corona Fauci Johnston",
+"Kung Flu Johnston",
+"Donald Johnston",
+"X Æ A-13 Johnston",
+"Jean Stan Johnston",
+"Action Johnston",
+"Kaye Leigh Johnston",
+"Johnathon \"John\" Stan Johnston",
+"Daire Reck Johnston",
+"Daire Rick-Alan Johnston",
+"Dirk Johnston",
+"Richard Johnston",
+"Just the Letter D Johnston",
+"Dee \"Deejay\" Jay Johnston",
+"Barry",
+"Small Derek Johnston",
+"You Child Johnston",
+"Johnston, son of Johnston",
+"Sport Johnston",
+"Johnston VerJohnstonson",
+"Dejohnston Johnston",
+"Bonus Johnston",
+"Kidd Johnston",
+"Action Bronson Johnston",
+"Shania Twain Rufus Johnston",
+"Stevie Irwin Johnston",
+"Dijon \"Di\" Johnston",
+"Mylegal Property Johnston",
+"Mystic Olraspy Johnston",
+"Metaphysical Meagon Johnston",
+"Governor Abbott Johnston",
+"Elle Shimmershimmer Johnston",
+"John Johnson Johnston",
+"Johnstdaughter Johnston ",
+"Jan Johnston",
+"Jar Jar \"Triple J\" Johnston",
+"Jack Johnston",
+"Karek Ranley Johnston",
+"Untitled01 Johnston",
+"Robert') DROP TABLE Students;-- Johnston",
+"Holloway Johnston",
+"Derecles Kaylos Johnston",
+"Longjohn Johnston",
+"Derek Alan Johnston II",
+"💯 Johnston",
+"Daniel Johnston",
+"Chucklefuck Ballsack Johnston I",
+"The People's Johnston",
+"Agricola Johnston",
+"Root Johnston",
+"Pandemic Baby Johnston",
+"127.0.0.1 Johnston",
+"child",
+"SN74HCS09-Q1 Johnston",
+"Boris Johnston",
+"Michael Jackson Johnston",
+"Census Johnston",
+"Oneinch Johnston",
+"Bernard Sanders Johnston",
+"[insert SSN#] Johnston",
+"Challenge Accepted Johnston",
+"Mohammed Johnston",
+"Sean Jean Johnston ",
+"StJohn Johnston ",
+"Footlong Johnston",
+"Ragnar Bloodlust Johnston",
+"Richard \"Dick\" Inman Johnston",
+"Zoom Johnston",
+"Feelma Johnston",
+"Big Ounce Johnston",
+"Billy Ray Johnston",
+"Drive Into Deep Left Field By Johnston",
+"Thorin Oaken Johnston",
+"Ras Trent Johnston",
+"Ross Johnston",
+"Adolf Johnston",
+"Dwayne \"The Rock\" Johnston",
+"Jizya Shorts Johnston",
+"Porkmac Johnston",
+"Oops All Johnston",
+"Beto O' Johnston",
+"Batman Bin Suparman Johnston",
+"Diet Johnston",
+"Beezow Doo-Doo Zopittybop-Bop-Bop Johnston",
+"Crystal Methany Johnston",
+"Long Wiwi Johnston",
+"Ash Muncher Johnston",
+"Anita Hardcok Johnston",
+"Anita Dick Johnston",
+"Annie Position Johnston",
+"Anya Neeze Johnston",
+"Dill Doe Johnston",
+"Normous Johnston",
+"Harry Johnston",
+"Female Presenting Johnston",
+"Fox No Items Johnston",
+"Don Keydick Johnston",
+"Johnson Anne Johnston",
+"Clint Torus Johnston",
+"Prairie Dog Pete Johnston",
+"Chub Bea Johnston",
+"Chubby Penguin Johnston",
+"Peen-gwyn Johnston",
+"CJK5H Johnston",
+"$GME Johnston (pronounced Jamie)",
+"Benjamin Dover Johnston",
+"Heywood Jablome Johnston",
+"Devil's Advocate Johnston",
+"Ton Johnston",
+"Lil' Johnston",
+"Mike Leach Johnston",
+"Marquis De Johnston",
+"Vagabond Johnston",
+"McMaster Carr Johnston",
+"Cancer Johnston",
+"Autosave Johnston",
+"Python Johnston",
+"LabView Johnston",
+"Maude Erna Johnston",
+"Lyndon Baynes Johnston",
+"Tikka Shack Johnston",
+"Craig Johnston"
 ];
-
-//============================================
-
-let names = [];
-let scores = [];
-
-//this breaks the imported name and score array
-for (var i = 0; i < nameArray.length; i++) {
-    let dataPoint = nameArray[i];
-    let nameData = nameArray[i][0];
-    let scoreData = nameArray[i][1];
-    console.log("Name: " + nameData + ", Score: " + scoreData);
-    names.push(nameArray[i][0]);
-    scores.push(nameArray[i][1]);
-}
-console.log(names);
-console.log(scores);
 
     function init() {
 
@@ -230,21 +293,29 @@ console.log(scores);
 
         myDiagram.model = model;
 
-        console.log(model);
-        // provide initial scores
-        for (var i = 0; i < model.nodeDataArray.length; i++) {
+        // provide initial scores for at most three pairings
+        for (var i = 0; i < Math.min(3, model.nodeDataArray.length); i++) {
           var d = model.nodeDataArray[i];
           if (d.player1 && d.player2) {
-            let scoreOne = scores.pop();
-            let scoreTwo = scores.pop();
             // TODO: doesn't prevent tie scores
-            model.setDataProperty(d, "score1", scoreOne);
-            model.setDataProperty(d, "score2", scoreTwo);
+            model.setDataProperty(d, "score1", Math.floor(Math.random() * 100));
+            model.setDataProperty(d, "score2", Math.floor(Math.random() * 100));
           }
         }
-
       }
 
       makeModel(names);
     } // end init
     window.addEventListener('DOMContentLoaded', init);
+  </script>
+
+<div id="sample">
+  <!-- The DIV for the Diagram needs an explicit size or else we won't see anything.
+       Also add a border to help see the edges. -->
+       <div class="bracket-container">
+
+       </div>
+  <div id="myDiagramDiv" style="border: 1px solid black; background: rgb(77, 77, 77); width: 90vw; height: 80vh; position: relative; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);"><canvas tabindex="0" width="1396" height="1196" style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 698px; height: 598px;">This text is displayed if your browser does not support the Canvas HTML element.</canvas><div style="position: absolute; overflow: auto; width: 40vw; height: 40vh; z-index: 1;"><div style="position: absolute; width: 1px; height: 1px;"></div></div></div>
+  </div>
+  </body>
+  </html>
