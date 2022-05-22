@@ -15,7 +15,7 @@ Instructions:
       ["Kareem O'Weet Porter",2],
       ["Jed I. Knight Porter",4],
       ["Uwe Eurotrash Porter *sponsored by BGGCon*",6 ],
-      ["Wayne Kerr Porter",1],
+      ["Wayne Kerr Porter",0],
       ["Mae Denless Porter",1],
       ["Tylorine Carler Porter",5],
       ["Marina Quey Porter",2],
