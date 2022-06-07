@@ -71,43 +71,92 @@ let nameArray = [
   ["Marijauna Jesus Porter",10]
 ];
 
+Match 3
+let nameArray = [
+  ["Vanilla Stout Porter",7],
+  ["Martin House Porter",12],
+  ["Ben N. Syder Porter",10],
+  ["Jed I. Knight Porter",6],
+  ["Uwe Eurotrash Porter *sponsored by BGGCon*",18 ],
+  ["Tylorine Carler Porter",9],
+  ["Steve Irwin Porter",7],
+  ["Ashcan Porter",10],
+  ["P.P. Hertz Porter",6],
+  ["Kenya Swallow Porter",13],
+  ["Charity Case Porter",9],
+  ["Yuri Dopted Porter",11],
+  ["Formula Juan Porter",12],
+  ["Baliin King Porter",7],
+  ["Guisseppe Tuscany Porter",6],
+  ["Hey Porter",11],
+  ["Harry Porter",13],
+  ["Beto O Porter",12],
+  ["Taks Credditte Porter",16],
+  ["Brooke N. Rubbers Porter",10],
+  ["Warner Horner McWhorter Porter",9],
+  ["John Jacob Jingleheimer Schmidt Porter",8],
+  ["Crystal Tits Porter",8],
+  ["Little Sweetmeat Porter",8],
+  ["Bubba Porter",12],
+  ["Porterhouse Steak Porter",12],
+  ["Torpor Porter",9],
+  ["Twoler Porter",9],
+  ["PeeWee Porter",11],
+  ["Joseph Ray Porter",15],
+  ["Johnny Sins Porter",12],
+  ["Marijauna Jesus Porter",13]
+];
 **/
 
 //Use this link to generate a
     let nameArray = [
-      ["Vanilla Stout Porter",5],
-      ["Martin House Porter",8],
-      ["Ben N. Syder Porter",6],
-      ["Jed I. Knight Porter",4],
-      ["Uwe Eurotrash Porter *sponsored by BGGCon*",13 ],
-      ["Tylorine Carler Porter",8],
-      ["Steve Irwin Porter",4],
-      ["Ashcan Porter",7],
-      ["P.P. Hertz Porter",5],
-      ["Kenya Swallow Porter",8],
-      ["Charity Case Porter",6],
-      ["Yuri Dopted Porter",8],
-      ["Formula Juan Porter",6],
-      ["Baliin King Porter",7],
-      ["Guisseppe Tuscany Porter",4],
-      ["Hey Porter",7],
-      ["Harry Porter",9],
-      ["Beto O Porter",10],
-      ["Taks Credditte Porter",12],
-      ["Brooke N. Rubbers Porter",6],
-      ["Warner Horner McWhorter Porter",4],
-      ["John Jacob Jingleheimer Schmidt Porter",7],
-      ["Crystal Tits Porter",4],
-      ["Little Sweetmeat Porter",6],
-      ["Bubba Porter",9],
-      ["Porterhouse Steak Porter",9],
-      ["Torpor Porter",6],
-      ["Twoler Porter",6],
-      ["PeeWee Porter",11],
-      ["Joseph Ray Porter",9],
-      ["Johnny Sins Porter",9],
-      ["Marijauna Jesus Porter",10]
+      ["Martin House Porter",12],
+      ["Ben N. Syder Porter",10],
+      ["Uwe Eurotrash Porter *sponsored by BGGCon*",18 ],
+      ["Tylorine Carler Porter",9],
+      ["Ashcan Porter",10],
+      ["Kenya Swallow Porter",13],
+      ["Yuri Dopted Porter",11],
+      ["Formula Juan Porter",12],
+      ["Hey Porter",11],
+      ["Harry Porter",13],
+      ["Taks Credditte Porter",16],
+      ["Warner Horner McWhorter Porter",9],
+      ["Crystal Tits Porter",8],
+      ["Little Sweetmeat Porter",8],
+      ["Bubba Porter",12],
+      ["Porterhouse Steak Porter",12],
+      ["Torpor Porter",9],
+      ["Twoler Porter",9],
+      ["Joseph Ray Porter",15],
+      ["Marijauna Jesus Porter",13]
 ];
+/**
+Loses
+Vanilla Stout Porter
+Jed I. Knight Porter
+Tylorine Carler Porter
+Steve Irwin Porter
+P.P. Hertz Porter
+Charity Case Porter
+Baliin King Porter
+Guisseppe Tuscany Porter
+Beto O Porter
+Brooke N. Rubbers Porter
+John Jacob Jingleheimer Schmidt Porter
+PeeWee Porter
+Johnny Sins Porter
+
+Baliin King Porter lost horribly, Formula Juan Porter is unstoppable
+There was a narrow loss for Beto O Porter by just a single vote in the Totally Valid Names Bracket and around 3 thousand votes in the Texas primaries. It would seem art imitates life.
+I think it's fair to say many of us wrote off Taks Creddite Porter this past Spring, but it looks like they are dominating the field.
+John Jacob Jingleheimer too felt the burn when Warner Horter McWhorter took him down in the final quarter
+Crystal Tits Porter and Little Sweetmeat Porter will have to face off in a grudge match
+Bubba Porter and Porterhouse Steak Porter are also grudging
+Toper and Twoler need a rematch
+Joseph Ray Porter swept PeeWee all across the floor, it was a certified PeeWee catastrophe.
+And holy smokes! It looks like Marijauna Jesus takes a lead over Johnny Sins.
+**/
 
 /**
 Vanilla Stout v. Martin House Porter
