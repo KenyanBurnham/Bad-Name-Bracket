@@ -113,7 +113,6 @@ let nameArray = [
       ["Martin House Porter",12],
       ["Ben N. Syder Porter",10],
       ["Uwe Eurotrash Porter *sponsored by BGGCon*",18 ],
-      ["Tylorine Carler Porter",9],
       ["Ashcan Porter",10],
       ["Kenya Swallow Porter",13],
       ["Yuri Dopted Porter",11],
@@ -151,9 +150,7 @@ Baliin King Porter lost horribly, Formula Juan Porter is unstoppable
 There was a narrow loss for Beto O Porter by just a single vote in the Totally Valid Names Bracket and around 3 thousand votes in the Texas primaries. It would seem art imitates life.
 I think it's fair to say many of us wrote off Taks Creddite Porter this past Spring, but it looks like they are dominating the field.
 John Jacob Jingleheimer too felt the burn when Warner Horter McWhorter took him down in the final quarter
-Crystal Tits Porter and Little Sweetmeat Porter will have to face off in a grudge match
-Bubba Porter and Porterhouse Steak Porter are also grudging
-Toper and Twoler need a rematch
+
 Joseph Ray Porter swept PeeWee all across the floor, it was a certified PeeWee catastrophe.
 And holy smokes! It looks like Marijauna Jesus takes a lead over Johnny Sins.
 **/
