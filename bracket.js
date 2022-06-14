@@ -106,31 +106,62 @@ let nameArray = [
   ["Johnny Sins Porter",12],
   ["Marijauna Jesus Porter",13]
 ];
+
+Round 4
+
+let nameArray = [
+  ["Martin House Porter",12],
+  ["Ben N. Syder Porter",10],
+  ["Uwe Eurotrash Porter *sponsored by BGGCon*",18 ],
+  ["Ashcan Porter",10],
+  ["Kenya Swallow Porter",13],
+  ["Yuri Dopted Porter",11],
+  ["Formula Juan Porter",12],
+  ["Hey Porter",11],
+  ["Harry Porter",13],
+  ["Taks Credditte Porter",16],
+  ["Warner Horner McWhorter Porter",9],
+  ["Crystal Tits Porter",8],
+  ["Little Sweetmeat Porter",8],
+  ["Bubba Porter",12],
+  ["Porterhouse Steak Porter",12],
+  ["Torpor Porter",9],
+  ["Twoler Porter",9],
+  ["Joseph Ray Porter",15],
+  ["Marijauna Jesus Porter",13]
+];
 **/
 
 //Use this link to generate a
     let nameArray = [
-      ["Martin House Porter",12],
-      ["Ben N. Syder Porter",10],
-      ["Uwe Eurotrash Porter *sponsored by BGGCon*",18 ],
-      ["Ashcan Porter",10],
-      ["Kenya Swallow Porter",13],
-      ["Yuri Dopted Porter",11],
-      ["Formula Juan Porter",12],
-      ["Hey Porter",11],
-      ["Harry Porter",13],
-      ["Taks Credditte Porter",16],
+      ["Martin House Porter",15],
+      ["Uwe Eurotrash Porter *sponsored by BGGCon*",22 ],
+      ["Kenya Swallow Porter",15],
+      ["Yuri Dopted Porter",15],
+      ["Formula Juan Porter",18],
+      ["Challenger [Kenya vs. Yuri]",18],
+      ["Taks Credditte Porter",19],
       ["Warner Horner McWhorter Porter",9],
-      ["Crystal Tits Porter",8],
-      ["Little Sweetmeat Porter",8],
-      ["Bubba Porter",12],
-      ["Porterhouse Steak Porter",12],
-      ["Torpor Porter",9],
-      ["Twoler Porter",9],
-      ["Joseph Ray Porter",15],
-      ["Marijauna Jesus Porter",13]
+      ["Little Sweetmeat Porter",12],
+      ["Porterhouse Steak Porter",17],
+      ["Torpor Porter",13],
+      ["Joseph Ray Porter",19],
 ];
+
 /**
+For crystal tits, put her on a shirt
+Victory for Little Sweetmeat over Crystal Tits Porter
+It was a tossup between Torpor and Twoler Porter, but Torpor pulled ahead.
+Kenya Swallow and Yuri Dopted are now tied
+Formula Juan takes an absolute racing lead against Hey Porter
+Joseph Ray Porter blew Marijauna Jesus Porter right out of the water
+
+Pray for the fallen
+Ben N. Syder
+Twoler
+Bubba
+
+
 Loses
 Vanilla Stout Porter
 Jed I. Knight Porter
